@@ -1279,12 +1279,12 @@ class RazerHuntsmanMini(_RippleKeyboard):
     """
     Class for the Razer Huntsman Mini
     """
-    EVENT_FILE_REGEX = re.compile(r'.*Razer_Huntsman_Mini(-if01)?-event-kbd')
+    EVENT_FILE_REGEX = re.compile(r'.*Razer_Razer_Huntsman_Mini_00000000001A(-if01)?-event-kbd')
     USB_VID = 0x1532
     USB_PID = 0x0257
     HAS_MATRIX = True
     WAVE_DIRS = (0, 1)
-    MATRIX_DIMS = [5, 14]
+    MATRIX_DIMS = [5, 15]
     METHODS = ['get_device_type_keyboard', 'set_wave_effect', 'set_static_effect', 'set_spectrum_effect',
                'set_reactive_effect', 'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
                'set_custom_effect', 'set_key_row', 'get_game_mode', 'set_game_mode', 'get_macro_mode', 'set_macro_mode',
